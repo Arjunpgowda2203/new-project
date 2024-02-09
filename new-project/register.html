@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .body{
+            height: 100vh;
+            width:100vw;
+            
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color:#dee2e6;
+            background-image:url(https://r4.wallpaperflare.com/wallpaper/313/510/500/jared-nickerson-monochrome-typography-eyes-wallpaper-7930782d213a2d7b66f7d8dfc011767d.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .formholder{
+       
+            padding: 10px;
+            height: 415px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            background-color: rgba(24,20,22,0.8);
+            border-radius: 10px;
+            box-shadow: 0px 0px 40px rgba(0,0,0,0.4);
+
+           
+
+        }
+        .formitems{
+
+            padding: 10px 20px;
+            width: 300px;
+            margin: 3px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            padding: 10px;
+        }
+        .eve{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: small;
+            font-weight: lighter;
+            transition: ease all 0.8s;
+        }
+        button{
+            background-color: rgba(255, 255, 63,0.9);
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            transition: ease all 0.8s;
+          
+        }
+        button:hover{
+            background-color:rgba(204, 201, 11, 0.9);
+            
+            
+        }
+        center{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: small;
+            font-weight: lighter;
+        }
+        input{
+            background-color: rgba(24,20,22,0.5);
+            padding: 9px;
+            color: whitesmoke;
+            border-radius: 5px;
+            border:1px solid rgb(255, 255, 63);
+            
+
+        }
+        input:hover{
+            background-color: rgba(40, 38, 39, 0.5) ;
+        }
+        span{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color:  rgb(255, 255, 63);
+            border-radius: 20px;
+        }
+        img{
+            height: 25px;
+            width: 25px;
+            transition: ease all 0.9s;
+
+        }
+        img:hover{
+            background-color: rgb(239, 235, 15) ;
+            border-radius: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            
+            <div class="formholder">
+                <form action="">
+                    <h2 style="position: relative;left: 10px;color: rgb(255, 255, 63);">Sign up!</h2>
+                    <div class="formitems">
+
+                        <label for="email" style="color:whitesmoke;margin-bottom: 5px;">Email id:</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+
+                    </div>
+                    <div class="formitems">
+
+                        <label for="username" style="color:whitesmoke;margin-bottom: 5px;">Username:</label>
+                        <input type="text" id="username" placeholder="Username">
+
+                    </div>
+                    <div class="formitems">
+                        <label for="password" style="color: whitesmoke;margin-bottom: 5px;">Password:</label>
+                        <input type="password" id="password" placeholder="Password" >
+                        
+                    </div>
+                    <div class="formitems">
+                        <button >Sign up!</button><br>
+                        <hr style="border: 1px solid whitesmoke;">
+                        <div style="position: relative;top: 10px;">
+                        <p ><center style="color: whitesmoke;">have an account?</center></p>
+                        <a href="file:///C:/Users/arjun/OneDrive/Desktop/coding/new-project/login.html" class="eve"><center style="color:rgb(255, 255, 63) ;">Log in!</center></a>
+                    </div>
+                    <span>
+                        <a href=""><img src="https://cdn-icons-png.flaticon.com/128/1660/1660165.png" alt=""></a>
+                    </span>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
